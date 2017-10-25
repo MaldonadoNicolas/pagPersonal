@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li style="padding-right: 20px"><a href="index.html">INICIO</a></li>
+            <li><a href="contacto.html" >CONTACTO</a></li>
+        </ul>
+    </header>
+    <div>
+        <h1 style="text-align:center">MIS DATOS DE CONTACTO</h1>
+        <ul>
+            <li class="infCont">Direccion</li>
+                Avenida Siempreviva 742
+            <li class="infCont">Whatsapp</li>
+                (0385) 154-757287
+            <li class="infCont">Email</li>
+                niqo1996@gmail.com
+                
+        </ul>
+    </div>
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'>
+    </script><div style='overflow:hidden;height:440px;width:100%;'>
+        <div id='gmap_canvas' style='height:440px;width:100%;'></div>
+        <div><small><a href="https://embedgooglemaps.com/en/">embedgooglemaps.com/es/									embedgooglemaps.com/es/									embedgooglemaps.com/es/									embedgooglemaps.com/es/									embedgooglemaps.com/es/									embedgooglemaps.com/es/									embedgooglemaps.com/es/									embedgooglemaps.com/es/									embedgooglemaps.com/es/									embedgooglemaps.com/es/</a></small></div><div><small><a href="https://freecountercode.com/secure-free-counter-code">Free Counter Code, freecountercode.com, https://freecountercode.com/</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-27.7833574,-64.26416699999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-27.7833574,-64.26416699999999)});infowindow = new google.maps.InfoWindow({content:'<strong>Ejemplo</strong><br>Santiago del Estero<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+    <div>
+        <footer>
+            <p>Taller de capacitacion:"Tecnologias basicas para el desarrollo web.</p>
+            <p>Email de contacto: <a href="mailto:niqo1996@gmail.com">niqo1996@gmail.com</a></p>
+        </footer>
+    </div>
+</body>
+</html>
